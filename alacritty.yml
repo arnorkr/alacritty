@@ -1,5 +1,6 @@
 ---
 shell:
+  # start alacritty in a tmux session
   program: /usr/bin/tmux
   args:
     - new-session
