@@ -646,4 +646,4 @@ OceanicNext_light: &OceanicNext_light
       cyan:    '#0087af'
       white:   '#eeeeee'
 
-colors: *pencil_dark
+colors: *iceberg_dark
