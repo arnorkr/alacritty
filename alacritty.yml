@@ -11,19 +11,19 @@ shell:
 
 font:
   normal:
-    family: "Ubuntu Mono"
+    family: "Fira Code"
     style:  Regular
 
   bold:
-    family: "Ubuntu Mono"
+    family: "Fira Code"
     style:  Bold
 
   italic:
-    family: "Ubuntu Mono"
+    family: "Fira Code"
     style:  Italic
 
   bold_italic:
-    family: "Ubuntu Mono"
+    family: "Fira Code"
     style:  Bold Italic
 
   size: 14
@@ -531,58 +531,6 @@ OceanicNext_light: &OceanicNext_light
       cyan:       '#0184bc'
       white:      '#a0a1a7'  # mono-3
 
-  # Colors (One Half Dark)
-  onehalf_dark: &onehalf_dark
-    primary:
-      background: '0x282c34'
-      foreground: '0xdcdfe4'
-
-    normal:
-      black: '0x282c34'
-      red: '0xe06c75'
-      green: '0x98c379'
-      yellow: '0xe5c07b'
-      blue: '0x61afef'
-      magenta: '0xc678dd'
-      cyan: '0x56b6c2'
-      white: '0xdcdfe4'
-
-    bright:
-      black: '0x282c34'
-      red: '0xe06c75'
-      green: '0x98c379'
-      yellow: '0xe5c07b'
-      blue: '0x61afef'
-      magenta: '0xc678dd'
-      cyan: '0x56b6c2'
-      white: '0xdcdfe4'
-
-  # Colors (One Half Light)
-  onehalf_light: &onehalf_light
-    primary:
-      background: '0xfafafa'
-      foreground: '0x383a42'
-
-    normal:
-      black: '0x383a42'
-      red: '0xe45649'
-      green: '0x50a14f'
-      yellow: '0xc18401'
-      blue: '0x0184bc'
-      magenta: '0xa626a4'
-      cyan: '0x0997b3'
-      white: '0xfafafa'
-
-    bright:
-      black: '0x383a42'
-      red: '0xe45649'
-      green: '0x50a14f'
-      yellow: '0xc18401'
-      blue: '0x0184bc'
-      magenta: '0xa626a4'
-      cyan: '0x0997b3'
-      white: '0xfafafa'
-
   # Colors (PaperColor - Dark)
   PaperColor_dark: &PaperColor_dark
     # Default colors
@@ -846,4 +794,4 @@ OceanicNext_light: &OceanicNext_light
       cyan:    '#0087af'
       white:   '#eeeeee'
 
-colors: *seoul256_dark
+colors: *pencil_dark
