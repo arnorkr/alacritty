@@ -11,19 +11,19 @@ shell:
 
 font:
   normal:
-    family: "Fira Code"
+    family: "Hack"
     style:  Regular
 
   bold:
-    family: "Fira Code"
+    family: "Hack"
     style:  Bold
 
   italic:
-    family: "Fira Code"
+    family: "Hack"
     style:  Italic
 
   bold_italic:
-    family: "Fira Code"
+    family: "Hack"
     style:  Bold Italic
 
   size: 14
@@ -275,6 +275,67 @@ schemes:
       cyan:    '#75E8D7'
       white:   '#F9F8F5'
 
+  nord_dark: &nord_dark
+    # Default colors
+    primary:
+      background: '#2E3440'
+      foreground: '#D8DEE9'
+
+    cursor:
+      text:       '#2E3440'
+      cursor:     '#D8DEE9'
+    
+    # Normal colors
+    normal:
+      black:   '#3B4252'
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#88C0D0'
+      white:   '#E5E9F0'
+
+    # Bright colors
+    bright:
+      black:   '#4C566A'
+      red:     '#BF616A'
+      green:   '#A3BE8C'
+      yellow:  '#EBCB8B'
+      blue:    '#81A1C1'
+      magenta: '#B48EAD'
+      cyan:    '#8FBCBB'
+      white:   '#ECEFF4'
+
+  # based on iceberg_light
+  nord_light: &nord_light 
+    # Default colors
+    primary:
+      background: '0xe8e9ec'
+      foreground: '0x33374c'
+
+    # Normal colors
+    normal:
+      black:   '0xdcdfe7'
+      red:     '0xcc517a'
+      green:   '0x668e3d'
+      yellow:  '0xc57339'
+      blue:    '0x2d539e'
+      magenta: '0x7759b4'
+      cyan:    '0x3f83a6'
+      white:   '0x33374c'
+
+    # Bright colors
+    bright:
+      black:   '0x8389a3'
+      red:     '0xcc3768'
+      green:   '0x598030'
+      yellow:  '0xb6662d'
+      blue:    '0x22478e'
+      magenta: '0x6845ad'
+      cyan:    '0x327698'
+      white:   '0x262a3f'
+
 # Colors (Oceanic Next)
 OceanicNext_dark: &OceanicNext_dark
   # Default colors
@@ -504,34 +565,92 @@ OceanicNext_light: &OceanicNext_light
   seoul256_dark: &seoul256_dark
     # Default Colors
     primary:
-      background: '#3a3a3a'
-      foreground: '#d0d0d0'
+      background: '#4B4B4B'
+      foreground: '#D9D9D9'
+
+    cursor:
+      cursor: '#3F3F3F'
+      text: '#D9D9D9'
+    
+    selection:
+      background: '#007173'
+      text: '#D9D9D9'
+
     # Normal colors
     normal:
       black:   '#000000'
-      red:     '#d75f87'
-      green:   '#87d75f'
-      yellow:  '#d7af87'
-      blue:    '#87afd7'
-      magenta: '#ffafd7'
-      cyan:    '#afd7ff'
-      white:   '#eeeeee'
+      red:     '#D75F87'
+      green:   '#87D75F'
+      yellow:  '#D7AF87'
+      blue:    '#87AFD7'
+      magenta: '#FFAFD7'
+      cyan:    '#AFD7FF'
+      white:   '#EEEEEE'
+
+    bright:
+      black:   '#00005F'
+      red:     '#D75FAF'
+      green:   '#87D787'
+      yellow:  '#D7AFAF'
+      blue:    '#87AFFF'
+      magenta: '#FFAFFF'
+      cyan:    '#AFFF00'
+      white:   '#EEEEEE'
+
+    dim:
+      black:   '#000000'
+      red:     '#D75F5F'
+      green:   '#87D700'
+      yellow:  '#D7AF5F'
+      blue:    '#87AFAF'
+      magenta: '#FFAFAF'
+      cyan:    '#AFD7D7'
+      white:   '#E4E4E4'
 
   seoul256_light: &seoul256_light
     # Default Colors
     primary:
-      background: '#d0d0d0'
-      foreground: '#3a3a3a'
+      background: '#E1E1E1'
+      foreground: '#616161'
+
+    cursor:
+      cursor: '#D9D9D9'
+      text: '#616161'
+    
+    selection:
+      background: '#BCDEDE'
+      text: '#616161'
+
     # Normal colors
     normal:
       black:   '#000000'
-      red:     '#af005f'
-      green:   '#5f875f'
-      yellow:  '#af5000'
-      blue:    '#005faf'
-      magenta: '#875f87'
-      cyan:    '#0087af'
-      white:   '#eeeeee'
+      red:     '#D75F87'
+      green:   '#87D75F'
+      yellow:  '#D7AF87'
+      blue:    '#87AFD7'
+      magenta: '#FFAFD7'
+      cyan:    '#AFD7FF'
+      white:   '#EEEEEE'
+
+    bright:
+      black:   '#00005F'
+      red:     '#D75FAF'
+      green:   '#87D787'
+      yellow:  '#D7AFAF'
+      blue:    '#87AFFF'
+      magenta: '#FFAFFF'
+      cyan:    '#AFFF00'
+      white:   '#EEEEEE'
+
+    dim:
+      black:   '#000000'
+      red:     '#D75F5F'
+      green:   '#87D700'
+      yellow:  '#D7AF5F'
+      blue:    '#87AFAF'
+      magenta: '#FFAFAF'
+      cyan:    '#AFD7D7'
+      white:   '#E4E4E4'
 
   solarized_dark: &solarized_dark
     # Default colors
@@ -633,17 +752,46 @@ OceanicNext_light: &OceanicNext_light
   zenburn_light: &zenburn_light
     # Default Colors
     primary:
-      background: '#d0d0d0'
-      foreground: '#3a3a3a'
+      background: '#E1E1E1'
+      foreground: '#616161'
+
+    cursor:
+      cursor: '#D9D9D9'
+      text: '#616161'
+    
+    selection:
+      background: '#BCDEDE'
+      text: '#616161'
+
     # Normal colors
     normal:
       black:   '#000000'
-      red:     '#af005f'
-      green:   '#5f875f'
-      yellow:  '#af5000'
-      blue:    '#005faf'
-      magenta: '#875f87'
-      cyan:    '#0087af'
-      white:   '#eeeeee'
+      red:     '#D75F87'
+      green:   '#87D75F'
+      yellow:  '#D7AF87'
+      blue:    '#87AFD7'
+      magenta: '#FFAFD7'
+      cyan:    '#AFD7FF'
+      white:   '#EEEEEE'
 
-colors: *iceberg_dark
+    bright:
+      black:   '#00005F'
+      red:     '#D75FAF'
+      green:   '#87D787'
+      yellow:  '#D7AFAF'
+      blue:    '#87AFFF'
+      magenta: '#FFAFFF'
+      cyan:    '#AFFF00'
+      white:   '#EEEEEE'
+
+    dim:
+      black:   '#000000'
+      red:     '#D75F5F'
+      green:   '#87D700'
+      yellow:  '#D7AF5F'
+      blue:    '#87AFAF'
+      magenta: '#FFAFAF'
+      cyan:    '#AFD7D7'
+      white:   '#E4E4E4'
+
+colors: *zenburn_dark
