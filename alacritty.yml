@@ -56,25 +56,25 @@ schemes:
 
     # Normal colors
     normal:
-      black: '#01060E'
-      red: '#EA6C73'
-      green: '#91B362'
-      yellow: '#F9AF4F'
-      blue: '#53BDFA'
+      black:   '#01060E'
+      red:     '#EA6C73'
+      green:   '#91B362'
+      yellow:  '#F9AF4F'
+      blue:    '#53BDFA'
       magenta: '#FAE994'
-      cyan: '#90E1C6'
-      white: '#C7C7C7'
+      cyan:    '#90E1C6'
+      white:   '#C7C7C7'
 
     # Bright colors
     bright:
-      black: '#686868'
-      red: '#F07178'
-      green: '#C2D94C'
-      yellow: '#FFB454'
-      blue: '#59C2FF'
+      black:   '#686868'
+      red:     '#F07178'
+      green:   '#C2D94C'
+      yellow:  '#FFB454'
+      blue:    '#59C2FF'
       magenta: '#FFEE99'
-      cyan: '#95E6CB'
-      white: '#FFFFFF'
+      cyan:    '#95E6CB'
+      white:   '#FFFFFF'
 
   ayu_light: &ayu_light
     primary:
@@ -83,25 +83,89 @@ schemes:
 
     # Normal colors
     normal:
-      black: '0x000000'
-      red: '0xf2590b'
-      green: '0x76cc00'
-      yellow: '0xf29717'
-      blue: '0x41a5d9'
+      black:   '0x000000'
+      red:     '0xf2590b'
+      green:   '0x76cc00'
+      yellow:  '0xf29717'
+      blue:    '0x41a5d9'
       magenta: '0x9965cc'
-      cyan: '0x4dbf98'
-      white: '0xc7c7c7'
+      cyan:    '0x4dbf98'
+      white:   '0xc7c7c7'
 
     # Bright colors
     bright:
-      black: '0x676767'
-      red: '0xd6646a'
-      green: '0xa3d900'
-      yellow: '0xe7c446'
-      blue: '0x6871ff'
+      black:   '0x676767'
+      red:     '0xd6646a'
+      green:   '0xa3d900'
+      yellow:  '0xe7c446'
+      blue:    '0x6871ff'
       magenta: '0xa37acc'
-      cyan: '0x56d9ad'
-      white: '0xfeffff'
+      cyan:    '0x56d9ad'
+      white:   '0xfeffff'
+
+  everforest_dark: &everforest_dark
+    # Default colors
+    primary:
+      background: '#323C41'
+      foreground: '#D3C6AA'
+
+    selection:
+      text:       '#D3C6AA'
+      background: '#573E4C'
+
+    # Normal colors
+    dim:
+      black:   '#2B3339'
+      red:     '#544247'
+      green:   '#445349'
+      yellow:  '#504F45'
+      blue:    '#3B5360'
+      magenta: '#D699B6'
+      cyan:    '#83C092'
+      white:   '#FFF9E8'
+
+    # Bright colors
+    normal:
+      black:   '#323C41'
+      red:     '#E67E80'
+      green:   '#A7C080'
+      yellow:  '#DBBC7F'
+      blue:    '#7FBBB3'
+      magenta: '#D699B6'
+      cyan:    '#83C092'
+      white:   '#FFF9E8'
+
+  everforest_light: &everforest_light
+    # Default colors
+    primary:
+      background: '#FFF9E8'
+      foreground: '#5C6A72'
+
+    selection:
+      text:       '#5C6A72'
+      background: '#EAEDC8'
+
+    # Normal colors
+    dim:
+      black:   '#2B3339'
+      red:     '#FBE3DA'
+      green:   '#F0F1D2'
+      yellow:  '#FAEDCD'
+      blue:    '#E9F0E9'
+      magenta: '#B16286'
+      cyan:    '#689D6A'
+      white:   '#F7F4E0'
+
+    # Bright colors
+    normal:
+      black:   '#323C41'
+      red:     '#9D0006'
+      green:   '#8DA101'
+      yellow:  '#DFA000'
+      blue:    '#3A94C5'
+      magenta: '#DF69BA'
+      cyan:    '#35A77C'
+      white:   '#FFF9E8'
 
   gruvbox_dark: &gruvbox_dark
     # Default colors
@@ -109,87 +173,97 @@ schemes:
       # hard contrast: background = '#1d2021'
       background: '#282828'
       # soft contrast: background = '#32302f'
-      foreground: '#ebdbb2'
+      foreground: '#EBDBB2'
+
+    selection:
+      text:       '#EBDBB2'
+      background: '#665c54'
 
     # Normal colors
     normal:
       black:   '#282828'
-      red:     '#cc241d'
-      green:   '#98971a'
-      yellow:  '#d79921'
+      red:     '#CC241D'
+      green:   '#98971A'
+      yellow:  '#D79921'
       blue:    '#458588'
-      magenta: '#b16286'
-      cyan:    '#689d6a'
-      white:   '#a89984'
+      magenta: '#B16286'
+      cyan:    '#689D6A'
+      white:   '#A89984'
 
     # Bright colors
     bright:
       black:   '#928374'
-      red:     '#fb4934'
-      green:   '#b8bb26'
-      yellow:  '#fabd2f'
-      blue:    '#83a598'
-      magenta: '#d3869b'
-      cyan:    '#8ec07c'
-      white:   '#ebdbb2'
+      red:     '#FB4934'
+      green:   '#B8BB26'
+      yellow:  '#FABD2F'
+      blue:    '#83A598'
+      magenta: '#D3869B'
+      cyan:    '#8EC07C'
+      white:   '#EBDBB2'
 
   gruvbox_light: &gruvbox_light
     # Default colors
     primary:
       # hard contrast: background = '#f9f5d7'
-      background: '#fbf1c7'
+      background: '#FBF1C7'
       # soft contrast: background = '#f2e5bc'
-      foreground: '#3c3836'
+      foreground: '#3C3836'
+
+    selection:
+      text:       '#3C3836'
+      background: '#BDAE93'
 
     # Normal colors
     normal:
-      black:   '#fbf1c7'
-      red:     '#cc241d'
-      green:   '#98971a'
-      yellow:  '#d79921'
+      black:   '#FBF1C7'
+      red:     '#CC241D'
+      green:   '#98971A'
+      yellow:  '#D79921'
       blue:    '#458588'
-      magenta: '#b16286'
-      cyan:    '#689d6a'
-      white:   '#7c6f64'
+      magenta: '#B16286'
+      cyan:    '#689D6A'
+      white:   '#7C6F64'
 
     # Bright colors
     bright:
       black:   '#928374'
-      red:     '#9d0006'
-      green:   '#79740e'
-      yellow:  '#b57614'
+      red:     '#9D0006'
+      green:   '#79740E'
+      yellow:  '#B57614'
       blue:    '#076678'
-      magenta: '#8f3f71'
-      cyan:    '#427b58'
-      white:   '#3c3836'
+      magenta: '#8F3F71'
+      cyan:    '#427B58'
+      white:   '#3C3836'
+
+  
 
   iceberg_dark: &iceberg_dark
     # Default colors
     primary:
       background: '#161821'
-      foreground: '#d2d4de'
+      foreground: '#D2D4DE'
 
     # Normal colors
     normal:
       black:   '#161821'
-      red:     '#e27878'
-      green:   '#b4be82'
-      yellow:  '#e2a478'
-      blue:    '#84a0c6'
-      magenta: '#a093c7'
-      cyan:    '#89b8c2'
-      white:   '#c6c8d1'
+      red:     '#E27878'
+      green:   '#B4BE82'
+      yellow:  '#E2A478'
+      blue:    '#84A0C6'
+      magenta: '#A093C7'
+      cyan:    '#89B8C2'
+      white:   '#C6C8D1'
 
     # Bright colors
     bright:
-      black:   '#6b7089'
-      red:     '#e98989'
-      green:   '#c0ca8e'
-      yellow:  '#e9b189'
-      blue:    '#91acd1'
-      magenta: '#ada0d3'
-      cyan:    '#95c4ce'
-      white:   '#d2d4de'
+      black:   '#6B7089'
+      red:     '#E98989'
+      green:   '#C0CA8E'
+      yellow:  '#E9B189'
+      blue:    '#91ACD1'
+      magenta: '#ADA0D3'
+      cyan:    '#95C4CE'
+      white:   '#D2D4DE'
 
   iceberg_light: &iceberg_light
     # Default colors
@@ -395,34 +469,74 @@ OceanicNext_light: &OceanicNext_light
     cyan:    '0x5b9c90'
     white:   '0x65737e'
 
+  # one dark scheme
+  # one_dark: &one_dark
+    # primary:
+      # background: '#282c34'
+      # foreground: '#abb2bf'
+    # cursor:
+      # text:       '#282c34'
+      # cursor:     '#61afef'
+    # selection:
+      # text:       '#000000'
+      # background: '#3e4452'
+    # normal:
+      # black:      '#282c34'
+      # red:        '#e06c75'
+      # green:      '#98c379'
+      # yellow:     '#e5c07b'
+      # blue:       '#61afef'
+      # magenta:    '#c678dd'
+      # cyan:       '#56b6c2'
+      # white:      '#abb2bf'
+    # dim:
+      # black:      '#282c34'
+      # red:        '#be5046'
+      # green:      '#98c379'
+      # yellow:     '#d19a66'
+      # blue:       '#61afef'
+      # magenta:    '#c678dd'
+      # cyan:       '#56b6c2'
+      # white:      '#abb2bf'
+
+  # onedark
   one_dark: &one_dark
+    # Default colors
     primary:
-      background: '#282c34'
-      foreground: '#abb2bf'
+      foreground: '0xabb2bf'
+      background: '0x282c34'
+
+    # Cursor colors
     cursor:
-      text:       '#282c34'
-      cursor:     '#61afef'
+      text: '0x2c323c'
+      cursor: '0x5c6370'
+
+    # Selection colors
     selection:
-      text:       '#000000'
-      background: '#3e4452'
+      text: CellForeground
+      background: '0x3e4452'
+
+    # Normal colors
     normal:
-      black:      '#282c34'
-      red:        '#e06c75'
-      green:      '#98c379'
-      yellow:     '#e5c07b'
-      blue:       '#61afef'
-      magenta:    '#c678dd'
-      cyan:       '#56b6c2'
-      white:      '#abb2bf'
-    dim:
-      black:      '#282c34'
-      red:        '#be5046'
-      green:      '#98c379'
-      yellow:     '#d19a66'
-      blue:       '#61afef'
-      magenta:    '#c678dd'
-      cyan:       '#56b6c2'
-      white:      '#abb2bf'
+      black:   '0x2c323c'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xe5c07b'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0x5c6370'
+
+    # Bright colors
+    bright:
+      black:   '0x3e4452'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xe5c07b'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xabb2bf'
 
   one_light: &one_light
     primary:
@@ -623,24 +737,24 @@ OceanicNext_light: &OceanicNext_light
 
     # Normal colors
     normal:
-      black:   '#000000'
+      black:   '#EEEEEE'
       red:     '#D75F87'
       green:   '#87D75F'
       yellow:  '#D7AF87'
       blue:    '#87AFD7'
       magenta: '#FFAFD7'
       cyan:    '#AFD7FF'
-      white:   '#EEEEEE'
+      white:   '#000000'
 
     bright:
-      black:   '#00005F'
+      black:   '#EEEEEE'
       red:     '#D75FAF'
       green:   '#87D787'
       yellow:  '#D7AFAF'
       blue:    '#87AFFF'
       magenta: '#FFAFFF'
       cyan:    '#AFFF00'
-      white:   '#EEEEEE'
+      white:   '#00005F'
 
     dim:
       black:   '#000000'
@@ -794,4 +908,4 @@ OceanicNext_light: &OceanicNext_light
       cyan:    '#AFD7D7'
       white:   '#E4E4E4'
 
-colors: *zenburn_dark
+colors: *everforest_light
