@@ -10,23 +10,23 @@
     # - main
 
 key_bindings:
-  - { key: N, mods: Control, action: SpawnNewInstance }
+  - {key: N, mods: Control, action: SpawnNewInstance}
 
 font:
   normal:
-    family: "Hack"
+    family: "Ubuntu Mono"
     style: Regular
 
   bold:
-    family: "Hack"
+    family: "Ubuntu Mono"
     style: Bold
 
   italic:
-    family: "Hack"
+    family: "Ubuntu Mono"
     style: Italic
 
   bold_italic:
-    family: "Hack"
+    family: "Ubuntu Mono"
     style: Bold Italic
 
   size: 14
@@ -51,7 +51,7 @@ custom_cursor_colors: true
 
 schemes:
   # Colors (Ayu Dark)
-  ayu_dark: &ayu_dark # Default colors
+  ayu_dark: &ayu_dark  # Default colors
     primary:
       background: "#0A0E14"
       foreground: "#B3B1AD"
@@ -105,7 +105,7 @@ schemes:
       cyan: "0x56d9ad"
       white: "0xfeffff"
 
-  everforest_dark: &everforest_dark # Default colors
+  everforest_dark: &everforest_dark  # Default colors
     primary:
       background: "#323C41"
       foreground: "#D3C6AA"
@@ -136,7 +136,7 @@ schemes:
       cyan: "#83C092"
       white: "#FFF9E8"
 
-  everforest_light: &everforest_light # Default colors
+  everforest_light: &everforest_light  # Default colors
     primary:
       background: "#FFF9E8"
       foreground: "#5C6A72"
@@ -167,7 +167,7 @@ schemes:
       cyan: "#35A77C"
       white: "#FFF9E8"
 
-  gruvbox_dark: &gruvbox_dark # Default colors
+  gruvbox_dark: &gruvbox_dark  # Default colors
     primary:
       # hard contrast: background = '#1d2021'
       background: "#282828"
@@ -200,7 +200,7 @@ schemes:
       cyan: "#8EC07C"
       white: "#EBDBB2"
 
-  gruvbox_light: &gruvbox_light # Default colors
+  gruvbox_light: &gruvbox_light  # Default colors
     primary:
       # hard contrast: background = '#f9f5d7'
       background: "#FBF1C7"
@@ -233,7 +233,7 @@ schemes:
       cyan: "#427B58"
       white: "#3C3836"
 
-  iceberg_dark: &iceberg_dark # Default colors
+  iceberg_dark: &iceberg_dark  # Default colors
     primary:
       background: "#161821"
       foreground: "#D2D4DE"
@@ -260,7 +260,7 @@ schemes:
       cyan: "#95C4CE"
       white: "#D2D4DE"
 
-  iceberg_light: &iceberg_light # Default colors
+  iceberg_light: &iceberg_light  # Default colors
     primary:
       background: "0xe8e9ec"
       foreground: "0x33374c"
@@ -287,7 +287,7 @@ schemes:
       cyan: "0x327698"
       white: "0x262a3f"
 
-  monokai_dark: &monokai_dark # Default colors
+  monokai_dark: &monokai_dark  # Default colors
     primary:
       background: "#272822"
       foreground: "#F8F8F2"
@@ -314,7 +314,7 @@ schemes:
       cyan: "#A1EFE4"
       white: "#F9F8F5"
 
-  monokai_light: &monokai_light # Default colors
+  monokai_light: &monokai_light  # Default colors
     primary:
       background: "#F8F8F2"
       foreground: "#272822"
@@ -341,7 +341,7 @@ schemes:
       cyan: "#75E8D7"
       white: "#F9F8F5"
 
-  nord_dark: &nord_dark # Default colors
+  nord_dark: &nord_dark  # Default colors
     primary:
       background: "#2E3440"
       foreground: "#D8DEE9"
@@ -373,7 +373,7 @@ schemes:
       white: "#ECEFF4"
 
   # based on iceberg_light
-  nord_light: &nord_light # Default colors
+  nord_light: &nord_light  # Default colors
     primary:
       background: "0xe8e9ec"
       foreground: "0x33374c"
@@ -401,7 +401,7 @@ schemes:
       white: "0x262a3f"
 
 # Colors (Oceanic Next)
-OceanicNext_dark: &OceanicNext_dark # Default colors
+OceanicNext_dark: &OceanicNext_dark  # Default colors
   primary:
     background: "0x1b2b34"
     foreground: "0xd8dee9"
@@ -429,7 +429,7 @@ OceanicNext_dark: &OceanicNext_dark # Default colors
     white: "0xadb5c0"
 
 # Colors (Oceanic Next)
-OceanicNext_light: &OceanicNext_light # Default colors
+OceanicNext_light: &OceanicNext_light  # Default colors
   primary:
     background: "0xd8dee9"
     foreground: "0x1b2b34"
@@ -487,7 +487,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
   # white:      '#abb2bf'
 
   # onedark
-  one_dark: &one_dark # Default colors
+  one_dark: &one_dark  # Default colors
     primary:
       foreground: "0xabb2bf"
       background: "0x282c34"
@@ -530,31 +530,31 @@ OceanicNext_light: &OceanicNext_light # Default colors
       foreground: "#383a42"
     cursor:
       text: CellBackground
-      cursor: "#526eff" # syntax-cursor-color
+      cursor: "#526eff"  # syntax-cursor-color
     selection:
       text: CellForeground
-      background: "#e5e5e6" # syntax-selection-color
+      background: "#e5e5e6"  # syntax-selection-color
     normal:
-      black: "#494b53" # mono-1
-      red: "#e45649" # red 1
+      black: "#494b53"  # mono-1
+      red: "#e45649"  # red 1
       green: "#50a14f"
-      yellow: "#986801" # orange 1
+      yellow: "#986801"  # orange 1
       blue: "#4078f2"
       magenta: "#a626a4"
       cyan: "#0184bc"
-      white: "#a0a1a7" # mono-3
+      white: "#a0a1a7"  # mono-3
     bright:
-      black: "#696c77" # mono-2
-      red: "#ca1243" # red 2
+      black: "#696c77"  # mono-2
+      red: "#ca1243"  # red 2
       green: "#50a14f"
-      yellow: "#c18401" # orange 2
+      yellow: "#c18401"  # orange 2
       blue: "#4078f2"
       magenta: "#a626a4"
       cyan: "#0184bc"
-      white: "#c2c2c3" # mono-4
+      white: "#c2c2c3"  # mono-4
 
   # Colors (PaperColor - Dark)
-  PaperColor_dark: &PaperColor_dark # Default colors
+  PaperColor_dark: &PaperColor_dark  # Default colors
     primary:
       background: "0x1c1c1c"
       foreground: "0x808080"
@@ -586,7 +586,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       white: "0xd7875f"
 
   # Colors (PaperColor - Light)
-  PaperColor_light: &PaperColor_light # Default colors
+  PaperColor_light: &PaperColor_light  # Default colors
     primary:
       background: "0xeeeeee"
       foreground: "0x878787"
@@ -617,7 +617,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       cyan: "0x005faf"
       white: "0x005f87"
 
-  pencil_dark: &pencil_dark # Default Colors
+  pencil_dark: &pencil_dark  # Default Colors
     primary:
       background: "#212121"
       foreground: "#f1f1f1"
@@ -642,7 +642,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       cyan: "#4fb8cc"
       white: "#f1f1f1"
 
-  pencil_light: &pencil_light # Default Colors
+  pencil_light: &pencil_light  # Default Colors
     primary:
       background: "#f1f1f1"
       foreground: "#424242"
@@ -667,7 +667,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       cyan: "#4fb8cc"
       white: "#f1f1f1"
 
-  seoul256_dark: &seoul256_dark # Default Colors
+  seoul256_dark: &seoul256_dark  # Default Colors
     primary:
       background: "#4B4B4B"
       foreground: "#D9D9D9"
@@ -711,7 +711,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       cyan: "#AFD7D7"
       white: "#C6C6C6"
 
-  seoul256_light: &seoul256_light # Default Colors
+  seoul256_light: &seoul256_light  # Default Colors
     primary:
       background: "#E1E1E1"
       foreground: "#616161"
@@ -755,69 +755,69 @@ OceanicNext_light: &OceanicNext_light # Default colors
       cyan: "#AFD7D7"
       white: "#C6C6C6"
 
-  solarized_dark: &solarized_dark # Default colors
+  solarized_dark: &solarized_dark  # Default colors
     primary:
-      background: "#002b36" # base03
-      foreground: "#839496" # base0
+      background: "#002b36"  # base03
+      foreground: "#839496"  # base0
 
     # Cursor colors
     cursor:
-      text: "#002b36" # base03
-      cursor: "#839496" # base0
+      text: "#002b36"  # base03
+      cursor: "#839496"  # base0
 
     # Normal colors
     normal:
-      black: "#073642" # base02
-      red: "#dc322f" # red
-      green: "#859900" # green
-      yellow: "#b58900" # yellow
-      blue: "#268bd2" # blue
-      magenta: "#d33682" # magenta
-      cyan: "#2aa198" # cyan
-      white: "#eee8d5" # base2
+      black: "#073642"  # base02
+      red: "#dc322f"  # red
+      green: "#859900"  # green
+      yellow: "#b58900"  # yellow
+      blue: "#268bd2"  # blue
+      magenta: "#d33682"  # magenta
+      cyan: "#2aa198"  # cyan
+      white: "#eee8d5"  # base2
 
     # Bright colors
     bright:
-      black: "#002b36" # base03
-      red: "#cb4b16" # orange
-      green: "#586e75" # base01
-      yellow: "#657b83" # base00
-      blue: "#839496" # base0
-      magenta: "#6c71c4" # violet
-      cyan: "#93a1a1" # base1
-      white: "#fdf6e3" # base3
+      black: "#002b36"  # base03
+      red: "#cb4b16"  # orange
+      green: "#586e75"  # base01
+      yellow: "#657b83"  # base00
+      blue: "#839496"  # base0
+      magenta: "#6c71c4"  # violet
+      cyan: "#93a1a1"  # base1
+      white: "#fdf6e3"  # base3
 
-  solarized_light: &solarized_light # Default colors
+  solarized_light: &solarized_light  # Default colors
     primary:
-      background: "#fdf6e3" # base3
-      foreground: "#657b83" # base00
+      background: "#fdf6e3"  # base3
+      foreground: "#657b83"  # base00
 
     # Cursor colors
     cursor:
-      text: "#fdf6e3" # base3
-      cursor: "#657b83" # base00
+      text: "#fdf6e3"  # base3
+      cursor: "#657b83"  # base00
 
     # Normal colors
     normal:
-      black: "#073642" # base02
-      red: "#dc322f" # red
-      green: "#859900" # green
-      yellow: "#b58900" # yellow
-      blue: "#268bd2" # blue
-      magenta: "#d33682" # magenta
-      cyan: "#2aa198" # cyan
-      white: "#eee8d5" # base2
+      black: "#073642"  # base02
+      red: "#dc322f"  # red
+      green: "#859900"  # green
+      yellow: "#b58900"  # yellow
+      blue: "#268bd2"  # blue
+      magenta: "#d33682"  # magenta
+      cyan: "#2aa198"  # cyan
+      white: "#eee8d5"  # base2
 
     # Bright colors
     bright:
-      black: "#002b36" # base03
-      red: "#cb4b16" # orange
-      green: "#586e75" # base01
-      yellow: "#657b83" # base00
-      blue: "#839496" # base0
-      magenta: "#6c71c4" # violet
-      cyan: "#93a1a1" # base1
-      white: "#fdf6e3" # base3
+      black: "#002b36"  # base03
+      red: "#cb4b16"  # orange
+      green: "#586e75"  # base01
+      yellow: "#657b83"  # base00
+      blue: "#839496"  # base0
+      magenta: "#6c71c4"  # violet
+      cyan: "#93a1a1"  # base1
+      white: "#fdf6e3"  # base3
 
   # Colors (Zenburn)
   zenburn_dark: &zenburn_dark
@@ -850,7 +850,7 @@ OceanicNext_light: &OceanicNext_light # Default colors
       yellow: "#e0cf9f"
 
   # same as Seoul256_light
-  zenburn_light: &zenburn_light # Default Colors
+  zenburn_light: &zenburn_light  # Default Colors
     primary:
       background: "#E1E1E1"
       foreground: "#616161"
